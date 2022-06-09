@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D'viaje</title>
+    <link href="https://fonts.googleapis.com/css2?family=Economica&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <nav class="navegador">
+        
+        <div id="cajanavegador">
+             <img src="../images/white_logo_transparent_background.png" id="logo"/>
+            
+             <ul>
+                 <li><a href="../index.html">Nosotros</a></li>
+                 <li><a href="nacional.html">Nacional</a></li>
+                 <li><a href="internacional.html">Internacional</a></li>
+                 <li><a href="promociones.html"> Promociones</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>   
+                 <div class="buscar">
+                    <input type="text" placeholder="Buscar" required>
+                    
+                    
+                   
+                </div> 
+             </ul>
+
+             
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+        
+            <h1>Dejanos tu comentario o consulta</h1>
+
+        </div>
+        <div class="formulario">
+        <form method="POST" enctype="multipart/form-data">
+
+            <fieldset>
+                <legend> Formulario de contacto </legend>
+        
+                <div class="nombre-apellido">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" placeholder="Escribe aqui...">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" placeholder="Escribe aqui...">
+                </div>
+        
+                <div class="email">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" placeholder="Escribe aqui...">
+                </div>
+                <hr>
+                
+                <div class="checkboxes">
+                    
+                    <p>Como nos conociste?</p>
+        
+                    <input type="checkbox" name="twitter" value="twitter">
+                    <label for="twitter">Twitter</label><br>
+        
+                    <input type="checkbox" name="instagram" value="instagram">
+                    <label for="instagram">Instagram</label><br>
+        
+                    <input type="checkbox" name="facebook" value="facebook">
+                    <label for="facebook">Facebook</label><br>
+        
+                    <input type="checkbox" name="telegram" value="telegram">
+                    <label for="telegram">Telegram</label><br>
+        
+                    <input type="checkbox" name="snapchat" value="snapchat">
+                    <label for="snapchat">Snapchat</label><br>
+        
+        
+                </div>
+                <hr>
+                <div class="referencias">
+                    <label for="referencias">Escribinos tu consulta</label><br>
+                    <textarea name="referencias" placeholder="Escribe aqui..." cols="30"
+                        rows="10"></textarea>
+                </div>
+        
+                <div class="enviar-reset">
+                    <input type="submit" name="enviar">
+                    <input type="reset" name="reset">
+                </div>
+        
+            </fieldset>
+        </form>
+        <img src="../images/dark_logo_transparent_background.png" id="logoContacto">
+        </div>
+        <article>
+
+        </article>
+    </section>
+
+    <aside>
+
+    </aside>
+
+    
+
+</body>
+</html>
