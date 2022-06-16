@@ -109,7 +109,7 @@ body{
 /*footer*/
 
 .grid-footer{
-    background-color: white;
+    background-color: rgb(246, 235, 235);
     grid-area: footer;
     display: grid;
 
@@ -205,6 +205,53 @@ p{
     display: inline-block;
     justify-content: left;
 }
+
+#divFondo {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    z-index: -1;
+    border: solid 2px black;
+}
+.derechos{
+    width: 200px;
+    height: 20px;
+    background-color: #EF5742;
+}
+.derechos{
+    transition: height 1s, width 1s;
+}
+.derechos:hover{
+    height: 1px;
+    width: 0px;
+   
+}
+
+.input1{
+    height: 50px;
+    width: 80px;
+    margin-left: 500PX;
+    transition: all 2s;
+}
+
+.input1:focus{
+    width: 100px;
+    height: 70px;
+    font-size: 24px;
+}
+
+#divAnim{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: un _efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+
 
 
 
